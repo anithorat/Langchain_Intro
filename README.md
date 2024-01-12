@@ -20,3 +20,7 @@ A prompt template is a way of creating prompts for language models using placeho
 
 ![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/9da6bb0f-2853-420e-9339-e35dd9773cf6)
 
+for example:
+****![Uploading image.png…]()
+
+
