@@ -31,8 +31,10 @@ https://www.comet.com/site/blog/introduction-to-prompt-templates-in-langchain/
 
 ## Prompts
   Language models (LLMs) require prompts to function.
-  A prompt is a set of instructions or inputs to guide the model’s response. The output from a prompt can be answers, sentence completions, or conversation responses. A well-constructed prompt template has the following sections:
 
+A prompt is a set of instructions or inputs to guide the model’s response. The output from a prompt can be answers, sentence completions, or conversation responses. 
+
+A well-constructed prompt template has the following sections:
 Instructions: Define the model’s response/behaviour.
 Context: Provides additional information, sometimes with examples.
 User Input: The actual question or input from the user.
