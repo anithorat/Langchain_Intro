@@ -79,4 +79,9 @@ Chains are one of the core features of LangChain, a framework for building appli
 
 #### There are different types of chains in LangChain, depending on the complexity and functionality of the tasks. Some of the common types are:
 
+* **LLMChain**
+      This is the simplest type of chain, which involves a single language model and a prompt template. A prompt template is a structured guide to formulating queries for language models. An LLMChain takes an input value, formats it with the prompt template, and passes it to the language model. The language model then generates an output based on the prompt.
+* **SequentialChain**
+*  **RouterChain**
+
 
