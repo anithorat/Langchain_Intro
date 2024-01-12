@@ -9,3 +9,11 @@ A prompt is the input provided to a language model to elicit a desired response.
 A chain is a sequence of actions that can be performed on a prompt or an output. A chain can include actions such as formatting, parsing, validating, or transforming the data. LangChain provides a class called LLMChain that allows you to create chains of actions using language models3.
 
 An agent is an entity that can execute a chain of actions and produce an output. An agent can be a single language model or a combination of multiple models and tools. LangChain provides a class called AgentExecutor that allows you to create and run agents using chains and prompt templates
+
+## Langchain consist three import concpet to complete the task
+1) Prompt remplate
+2) Chains
+3) Agent
+
+# Prompt Template:
+A prompt template is a way of creating prompts for language models using placeholders and input values. A prompt is the input that guides the model’s response. A prompt template can have different sections, such as instructions, context, examples, and output indicator. A prompt template can be formatted with different input values to create different prompts for different tasks or scenarios.
