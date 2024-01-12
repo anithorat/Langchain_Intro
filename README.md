@@ -35,7 +35,7 @@ https://www.comet.com/site/blog/introduction-to-prompt-templates-in-langchain/
 A prompt is a set of instructions or inputs to guide the model’s response. The output from a prompt can be answers, sentence completions, or conversation responses. 
 
 A well-constructed prompt template has the following sections:
-1) Instructions: Define the model’s response/behaviour.
-2) Context: Provides additional information, sometimes with examples.
-3) User Input: The actual question or input from the user.
-4) Output Indicator: Marks the beginning of the model’s response.
+1) ##Instructions: Define the model’s response/behaviour.
+2) ##Context: Provides additional information, sometimes with examples.
+3) ##User Input: The actual question or input from the user.
+4) ##Output Indicator: Marks the beginning of the model’s response.
