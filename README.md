@@ -61,9 +61,22 @@ Some key features:
 
 ![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/e658d67b-db60-4407-a1e4-aa6b0d071452)
 
-
-
-
 # **Example**
 
 ![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/8655547a-efd6-457e-b6cc-4d4585d98de6)
+
+
+# **Chain**
+
+Chains are sequences of actions that can be performed on a prompt or an output.
+
+Prompt: - A prompt is a set of instructions or inputs to guide the model’s response. The output from a prompt can be answers, sentence completions, or conversation responses. 
+
+Chains are one of the core features of LangChain, a framework for building applications using language models. Chains are sequences of actions that can be performed on a prompt or an output. A prompt is the input that guides the model’s response. An output is the result of the model’s generation.
+
+
+![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/6a5c7942-fe38-473d-ada4-df7fc05084c1)
+
+#### There are different types of chains in LangChain, depending on the complexity and functionality of the tasks. Some of the common types are:
+
+
