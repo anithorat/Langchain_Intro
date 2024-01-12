@@ -18,6 +18,8 @@ An agent is an entity that can execute a chain of actions and produce an output.
 # Prompt Template:
 A prompt template is a way of creating prompts for language models using placeholders and input values. A prompt is the input that guides the model’s response. A prompt template can have different sections, such as instructions, context, examples, and output indicator. A prompt template can be formatted with different input values to create different prompts for different tasks or scenarios.
 
+Why Use Prompt Templates? Prompt templates are useful when multiple inputs are needed, making code cleaner and more manageable.
+
 ![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/fda21802-b5da-4847-aee0-1d18ad8ad817)
 
 
@@ -39,3 +41,15 @@ A well-constructed prompt template has the following sections:
 2) **Context**: Provides additional information, sometimes with examples.
 3) **User Input**: The actual question or input from the user.
 4) **Output Indicator**: Marks the beginning of the model’s response.
+
+## Prompt templates in LangChain
+LangChain provides PromptTemplate to help create parametrized prompts for language models.
+
+A PromptTemplate allows creating a template string with placeholders, like {adjective} or {content} that can be formatted with input values to create the final prompt string.
+
+Some key features:
+
+* Validation of input variables against the template
+* Flexible input values — can pass dictionaries, data classes, etc
+* Support for different templating engines like Python’s `str.format` or Jinja2
+* Easy to extend and create custom templates
