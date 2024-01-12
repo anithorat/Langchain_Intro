@@ -23,5 +23,6 @@ A prompt template is a way of creating prompts for language models using placeho
 for example:
 ****![Uploading image.png…]()
 
+https://www.comet.com/site/blog/introduction-to-prompt-templates-in-langchain/
 
 
