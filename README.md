@@ -54,16 +54,8 @@ Some key features:
 * Support for different templating engines like Python’s `str.format` or Jinja2
 * Easy to extend and create custom templates
 
+![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/c25e3958-8736-4c06-9282-ab95814b9aea)
 
-from langchain import PromptTemplate, OpenAI
+![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/e658d67b-db60-4407-a1e4-aa6b0d071452)
 
-# Define a simple prompt template as a Python string
 
-prompt_template = PromptTemplate.from_template("""
-Human: What is the capital of {place}?
-AI: The capital of {place} is {capital}
-""")
-
-prompt = prompt_template.format(place="California", capital="Sacramento")
-
-print(prompt)
