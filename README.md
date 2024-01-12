@@ -81,7 +81,11 @@ Chains are one of the core features of LangChain, a framework for building appli
 
 * **LLMChain**
       This is the simplest type of chain, which involves a single language model and a prompt template. A prompt template is a structured guide to formulating queries for language models. An LLMChain takes an input value, formats it with the prompt template, and passes it to the language model. The language model then generates an output based on the prompt.
+
+  for examplae:- Create an LLMs chain to generate a joke about different topics using Language model
 * **SequentialChain**
+      This is a type of chain that combines multiple chains by using the output of one chain as the input for the next. A SequentialChain can handle multiple inputs and outputs simultaneously.
+  for example:- To create a Sequential chain to summarize  and translate a text using two language model, one for summarizationa and other for generation
 *  **RouterChain**
 
 
