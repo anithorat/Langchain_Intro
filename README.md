@@ -17,3 +17,6 @@ An agent is an entity that can execute a chain of actions and produce an output.
 
 # Prompt Template:
 A prompt template is a way of creating prompts for language models using placeholders and input values. A prompt is the input that guides the model’s response. A prompt template can have different sections, such as instructions, context, examples, and output indicator. A prompt template can be formatted with different input values to create different prompts for different tasks or scenarios.
+
+![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/9da6bb0f-2853-420e-9339-e35dd9773cf6)
+
