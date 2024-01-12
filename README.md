@@ -85,7 +85,13 @@ Chains are one of the core features of LangChain, a framework for building appli
   for examplae:- Create an LLMs chain to generate a joke about different topics using Language model
 * **SequentialChain**
       This is a type of chain that combines multiple chains by using the output of one chain as the input for the next. A SequentialChain can handle multiple inputs and outputs simultaneously.
+
   for example:- To create a Sequential chain to summarize  and translate a text using two language model, one for summarizationa and other for generation
 *  **RouterChain**
+      This is a type of chain that can route the input to different chains based on some conditions. A RouterChain can handle complex logic and branching scenarios.
+
+    For example, you can create a RouterChain to classify a text into different categories and then perform different actions based on the category3.
+
+**Chains are powerful and flexible tools that allow you to create and execute complex tasks using language models. You can also create your own custom chains using arbitrary functions or other tools. LangChain provides classes and methods to help you create and work with chains easily.**
 
 
