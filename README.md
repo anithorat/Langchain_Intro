@@ -34,6 +34,12 @@ https://www.comet.com/site/blog/introduction-to-prompt-templates-in-langchain/
 ## Prompts
   Language models (LLMs) require prompts to function.
 
+
+# **Example**
+
+![image](https://github.com/anithorat/Langchain_Intro/assets/101381417/8655547a-efd6-457e-b6cc-4d4585d98de6)
+
+
 A prompt is a set of instructions or inputs to guide the model’s response. The output from a prompt can be answers, sentence completions, or conversation responses. 
 
 A well-constructed prompt template has the following sections:
